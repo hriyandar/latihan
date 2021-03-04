@@ -4,6 +4,6 @@ using namespace std;
 int main()
 {
 	int x= 12, y=2, z;
-	z = x+y;
-	cout<<"Penjumlahan = "<<z;
+	z = x-y;
+	cout<<"Pengurangan = "<<z;
 }
