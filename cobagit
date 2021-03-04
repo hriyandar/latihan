@@ -1,9 +1,15 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 int main()
 {
-	int x= 12, y=2, z;
-	z = x/y;
-	cout<<"Pembagian = "<<z;
+	int x, y;
+	cout<<"berikan angka yang pertama : ";
+	cin>>x;
+
+	cout<<endl<<"masukan angka yang kedua : ";
+	cin>>y;
+	
+	cout<<endl<<"Angka pertama adalah : "<<x<<" dan angka kedua adalah "<<y;
 }
